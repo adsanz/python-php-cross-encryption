@@ -1,2 +1,5 @@
-# python-php-cross-encryption
-So I'm working on some encryption stuff and somethings get encrypted on php then decripted on python, came out with this, it may be useful to someone else!
+# Cross-platform encription
+
+I have to store sensitive data that cannot be stored without proper encryption. Some of this data is saved via PHP, some of it via Python.
+
+Came up with this solution, basically AES-256-CBC with HMAC verification on both, Python and PHP, I'm not entirely sure if this is completly secure that's why I'm sharing it!
